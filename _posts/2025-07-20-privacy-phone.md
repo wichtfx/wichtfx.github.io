@@ -10,7 +10,7 @@ thumbnail:
 
 This post reviews the current landscape of mobile devices from a privacy and longevity perspective in mid-2025.
 
-## Pixel Devices
+## Pixel devices
 
 Pixel phones remain the most widely supported option for running hardened Android-based systems. GrapheneOS continues to support newer Pixel models with a focus on long-term updates, offering over seven years of software support. These devices combine verified boot, regular security patches, and compatibility with most Android applications.
 
@@ -26,7 +26,7 @@ The Fairphone 5 emphasizes ethical sourcing, modularity, and hardware longevity.
 
 For users prioritizing sustainability and openness over strict security guarantees, it remains a strong option.
 
-## LineageOS and Derivatives
+## LineageOS and derivatives
 
 LineageOS, DivestOS, and similar projects extend the usability of older or unsupported devices. They reduce dependence on proprietary Google services and maintain an active developer community.
 
@@ -38,7 +38,7 @@ Apple devices offer consistent updates, stable performance, and a tightly integr
 
 However, iOS remains a closed platform. Application sources are restricted, the OS cannot be independently audited, and hardware-level changes are not permitted. Trust in the system relies entirely on Apple’s policies, which may shift over time.
 
-## Linux-Based Phones
+## Linux-based phones
 
 Phones such as the Librem 5 and PinePhone support full verifiability, user-replaceable components, and open-source operating systems. These devices prioritize user control and long-term transparency.
 
