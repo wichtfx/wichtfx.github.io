@@ -34,7 +34,12 @@ ninja.data = [{
             window.location.href = "/blog/2025/privacy-phone/";
           
         },
-      },{id: "news-i-gave-two-talks-at-the-bsa-conference-at-epfl-covering-different-aspects-of-scalability-and-storage-requirements-in-privacy-preserving-cryptocurrencies",
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-i-gave-two-talks-at-the-bsa-conference-at-epfl-covering-different-aspects-of-scalability-and-storage-requirements-in-privacy-preserving-cryptocurrencies",
           title: 'I gave two talks at the BSA Conference at EPFL, covering different aspects...',
           description: "",
           section: "News",},{id: "news-we-presented-our-hackaton-project-persisting-private-bittorrent-trackers-with-tees-at-ic3-blockchain-camp-with-zhengwei-tong-aviv-yaish-hang-yin-and-andrew-miller",
