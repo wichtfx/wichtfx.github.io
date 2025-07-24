@@ -46,10 +46,6 @@ They are not yet practical for general-purpose use. Battery life is limited, cor
 
 ## Outlook
 
-The set of viable privacy-respecting mobile devices is narrowing. Pixel phones, especially newer models, continue to provide a reasonable balance of security, modifiability, and long-term support—especially when paired with GrapheneOS. However, recent changes highlight the risks of depending on proprietary firmware and automatic updates.
+The set of viable privacy-respecting mobile devices is narrowing. Pixel phones, especially newer models, still offer a strong combination of security features, modifiability, and long-term support—particularly when paired with GrapheneOS. Yet, relying on a product controlled by a single company brings risks. Recent changes—such as enforced updates and performance throttling—show that support terms or core functionality can shift without notice.
 
-Fairphone offers an alternative focused on repairability and openness, now with support for CalyxOS. Security guarantees remain lower, but the device suits users who prioritize control and sustainability. LineageOS-based systems extend older hardware but do not provide comprehensive protection.
-
-Meanwhile, Google’s move to develop Android entirely in private further erodes the transparency of the platform’s evolution. Public source code will still be released, but only after full version rollouts, making upstream contributions and early insight into OS development far more difficult.
-
-No option is without tradeoffs. For now, Pixel devices with GrapheneOS remain the most practical choice for users seeking hardened privacy with broad app compatibility and long-term support.
+This lack of control is mirrored on the development side. Google’s decision to move all Android OS development behind closed doors further erodes platform transparency. While source code will still be published, it will only appear after full version rollouts. This makes upstream collaboration harder and limits early insight into upcoming changes, reinforcing the risks of relying on a platform governed unilaterally.
