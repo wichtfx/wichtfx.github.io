@@ -17,7 +17,7 @@ lang: en
 icon: favicon.png
 
 url: https://wichtfx.github.io
-baseurl: /
+baseurl: 
 last_updated: true
 back_to_top: true
 
