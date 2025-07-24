@@ -6,42 +6,37 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-bg-color: #DCD7BA; /* fujiWhite */
+  --global-code-bg-color: #F8F8F2;
+  --global-text-color: #1F1F28; /* sumiInk1 */
+  --global-text-color-light: #727169; /* fujiGray */
+  --global-theme-color: #957FB8; /* oniViolet */
+  --global-hover-color: #7E9CD8; /* crystalBlue */
+  --global-hover-text-color: #DCD7BA; /* fujiWhite */
+  --global-footer-bg-color: #2A2A37; /* sumiInk2 */
+  --global-footer-text-color: #C8C093; /* oldWhite */
+  --global-footer-link-color: #DCD7BA; /* fujiWhite */
+  --global-distill-app-color: #54546D; /* sumiInk4 */
+  --global-divider-color: #363646; /* sumiInk3 */
+  --global-card-bg-color: #F8F8F2;
+  --global-highlight-color: #E82424; /* samuraiRed */
+  --global-back-to-top-bg-color: rgba(31, 31, 40, 0.4); /* sumiInk1 */
+  --global-back-to-top-text-color: #DCD7BA;
+  --global-newsletter-bg-color: #F8F8F2;
+  --global-newsletter-text-color: #1F1F28;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #98BB6C; /* springGreen */
+  --global-tip-block-bg: #E2F5EC;
+  --global-tip-block-text: #2B3328; /* winterGreen */
+  --global-tip-block-title: #76946A; /* autumnGreen */
+  --global-warning-block: #FF9E3B; /* roninYellow */
+  --global-warning-block-bg: #FFF8D8;
+  --global-warning-block-text: #49443C; /* winterYellow */
+  --global-warning-block-title: #DCA561; /* autumnYellow */
+  --global-danger-block: #E82424; /* samuraiRed */
+  --global-danger-block-bg: #FFE0E0;
+  --global-danger-block-text: #43242B; /* winterRed */
+  --global-danger-block-title: #C34043; /* autumnRed */
 
   #light-toggle-system {
     padding-left: 10px;
@@ -78,41 +73,36 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-bg-color: #1F1F28; /* sumiInk1 */
+  --global-code-bg-color: #2A2A37; /* sumiInk2 */
+  --global-text-color: #C8C093; /* oldWhite */
+  --global-text-color-light: #727169; /* fujiGray */
+  --global-theme-color: #7E9CD8; /* crystalBlue */
+  --global-hover-color: #957FB8; /* oniViolet */
+  --global-hover-text-color: #DCD7BA; /* fujiWhite */
+  --global-footer-bg-color: #16161D; /* sumiInk0 */
+  --global-footer-text-color: #C8C093;
+  --global-footer-link-color: #DCD7BA;
+  --global-distill-app-color: #54546D;
+  --global-divider-color: #363646;
+  --global-card-bg-color: #2A2A37;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
+  --global-back-to-top-text-color: #1F1F28;
+  --global-newsletter-bg-color: #2A2A37;
+  --global-newsletter-text-color: #C8C093;
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: #98BB6C;
+  --global-tip-block-bg: #2B3328;
+  --global-tip-block-text: #DCD7BA;
+  --global-tip-block-title: #76946A;
+  --global-warning-block: #FF9E3B;
+  --global-warning-block-bg: #49443C;
+  --global-warning-block-text: #DCD7BA;
+  --global-warning-block-title: #DCA561;
+  --global-danger-block: #E82424;
+  --global-danger-block-bg: #43242B;
+  --global-danger-block-text: #DCD7BA;
+  --global-danger-block-title: #C34043;
 
   .only-light {
     display: none;
