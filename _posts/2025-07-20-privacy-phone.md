@@ -16,13 +16,13 @@ Pixel phones remain the most widely supported option for running hardened Androi
 
 However, software updates increasingly include changes that affect user control. In July 2025, Google introduced battery performance throttling on the Pixel 6a after approximately 400 charge cycles. The change reduces charging speed and battery capacity, citing safety concerns. The update was deployed automatically, and rollback is not possible. While the device is still officially supported through 2027, its performance and usability are now reduced.
 
-This follows a similar update earlier in the year for the Pixel 4a, which is no longer supported by CalyxOS as of version 5.17.1. These moves raise concerns about long-term hardware viability when changes are enforced unilaterally.
-
 Compatibility issues are also increasing. App installations through Aurora Store are less reliable due to frequent rate-limiting. Banking applications relying on Google's integrity checks often fail to work on hardened systems, and alternatives are scarce.
+
+Google has also confirmed that all Android OS development will now take place entirely within its internal branches. Previously, some development occurred in the public Android Open Source Project (AOSP), but going forward, only complete releases will be published. This makes platform contributions more difficult for external developers and reduces transparency about upcoming changes.
 
 ## Fairphone
 
-The Fairphone 5 emphasizes ethical sourcing, modularity, and hardware longevity. It supports alternate operating systems and is designed for ease of repair. While it provides a longer hardware lifecycle, its security posture is weaker than Pixel devices. Firmware protections are limited, and software hardening is less comprehensive.
+The Fairphone 5 emphasizes ethical sourcing, modularity, and hardware longevity. It supports alternate operating systems, including CalyxOS, and is designed for ease of repair. While it provides a longer hardware lifecycle, its security posture is weaker than Pixel devices. Firmware protections are limited, and software hardening is less comprehensive.
 
 For users prioritizing sustainability and openness over strict security guarantees, it remains a strong option.
 
@@ -48,6 +48,8 @@ They are not yet practical for general-purpose use. Battery life is limited, cor
 
 The set of viable privacy-respecting mobile devices is narrowing. Pixel phones, especially newer models, continue to provide a reasonable balance of security, modifiability, and long-term support—especially when paired with GrapheneOS. However, recent changes highlight the risks of depending on proprietary firmware and automatic updates.
 
-Fairphone offers an alternative focused on repairability and openness, though with weaker security guarantees. LineageOS-based systems extend older hardware but do not provide comprehensive protection.
+Fairphone offers an alternative focused on repairability and openness, now with support for CalyxOS. Security guarantees remain lower, but the device suits users who prioritize control and sustainability. LineageOS-based systems extend older hardware but do not provide comprehensive protection.
+
+Meanwhile, Google’s move to develop Android entirely in private further erodes the transparency of the platform’s evolution. Public source code will still be released, but only after full version rollouts, making upstream contributions and early insight into OS development far more difficult.
 
 No option is without tradeoffs. For now, Pixel devices with GrapheneOS remain the most practical choice for users seeking hardened privacy with broad app compatibility and long-term support.
