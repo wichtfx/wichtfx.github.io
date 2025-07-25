@@ -10,6 +10,9 @@
   number       = {4},
   selected = {true},
   preview = {cw25.png},
+  abstract = {Anonymous cryptocurrencies attracted much attention over the past decade, yet ensuring both integrity and privacy in an open system remains challenging. Their transactions preserve privacy because they do not reveal on which earlier transaction they depend, specifically which outputs of previous transactions are spent. However, achieving privacy imposes a significant storage overhead due to two current limitations. First, the set of potentially unspent outputs of transactions grows indefinitely because the design hides cryptographically which one have been consumed; and, second, additional data must be stored for each spent output to ensure integrity, that is, to prevent that it can be spent again. We introduce a privacy-preserving payment scheme that mitigates these issues by randomly partitioning unspent outputs into fixed-size bins. Once a bin has been referenced in as many transactions as its size, it is pruned from the ledger. This approach reduces storage overhead while preserving privacy. We first highlight the scalability benefits of using smaller untraceability sets instead of considering the entire set of outputs, as done in several privacy-preserving cryptocurrencies. We then formalize the security and privacy notions required for a scalable, privacy-preserving payment system and analyze how randomized partitioning plays a key role in both untraceability and scalability. To instantiate our approach, we provide a construction based on Merkle trees, which ensures efficient argument systems and easy pruning of the state. We finally show the storage benefits of our scheme and analyze its resilience against large-scale flooding attacks using empirical transaction data.},
+  doi = {10.56553/popets-2025-0165},
+  bibtex_show = {true},
   url          = {https://doi.org/10.56553/popets-2025-0165}
 }
 @InProceedings{wzlc25,
@@ -24,8 +27,11 @@
   volume	= {14745},
   publisher	= {Springer},
   url		= {https://doi.org/10.1007/978-3-031-78679-2_16},
+  abstract = {Considerable work explores blockchain privacy notions. Yet, it usually employs entirely different models and notations, complicating potential comparisons. In this work, we use the Transaction Directed Acyclic Graph (TDAG) and extend it to capture blockchain privacy notions (PDAG). We give consistent definitions for untraceability and unlinkability. Moreover, we specify conditions on a blockchain system to achieve each aforementioned privacy notion. Thus, we can compare the two most prominent privacy-preserving blockchains – Monero and Zcash, in terms of privacy guarantees. Finally, we unify linking heuristics from the literature with our graph notation and review a good portion of research on blockchain privacy.},
+  doi		= {10.1007/978-3-031-78679-2_16},
   selected = {true},
   preview = {wzlc25.png},
+  bibtex_show = {true},
   class		= {2}
 }
 @inproceedings{lywfcs25,
@@ -33,9 +39,12 @@
   title     = {Practical Secure Aggregation by Combining Cryptography and Trusted Execution Environments},
   booktitle = {Proceedings of the 19th {ACM} International Conference on Distributed and Event-based Systems, {DEBS} 2025, Gothenburg, Sweden, June 10-13, 2025},
   publisher = {{ACM}},
+  abstract = {Secure aggregation enables a group of mutually distrustful parties, each holding private inputs, to collaboratively compute an aggregate value while preserving the privacy of their individual inputs. However, a major challenge in adopting secure aggregation approaches for practical applications is the significant computational overhead of the underlying cryptographic protocols, e.g. fully homomorphic encryption. This overhead makes secure aggregation protocols impractical, especially for large datasets. In contrast, hardware-based security techniques such as trusted execution environments (TEEs) enable computation at near-native speeds, making them a promising alternative for reducing the computational burden typically associated with purely cryptographic techniques. Yet, in many scenarios, parties may opt for either cryptographic or hardware-based security mechanisms, highlighting the need for hybrid approaches. In this work, we introduce several secure aggregation architectures that integrate both cryptographic and TEE-based techniques, analyzing the trade-offs between security and performance.},
   year      = {2025},
+  doi          = {10.1145/3701717.3730543},
   selected = {true},
   preview = {lywfcs25.png},
+  bibtex_show = {true},
   url		= {https://doi.org/10.48550/arXiv.2504.08325},
 }
 
