@@ -5,14 +5,12 @@ date: 2025-08-03 18:00:00
 description: Evaluating modern mobile hardware for privacy, support, and long-term usability.
 tags: privacy phones android ios calyxos grapheneos pixel
 categories: analysis
-thumbnail: 
 ---
 
-I used a Pixel 4a for years. It was reliable, well-supported, and ran CalyxOS without issue. But with the 5.17.1 release, support officially ended. No more updates, no more security patches. The hardware still works, but without software support, it can no longer be trusted. So I need to find a new phone—one that can still be secured, modified, and used privately under increasingly constrained conditions.
+*I used a Pixel 4a for years. It was reliable, well-supported, and ran CalyxOS without issue. But with the 5.17.1 release, support officially ended. No more updates, no more security patches. The hardware still works, but without software support, it can no longer be trusted. So I need to find a new phone—one that can still be secured, modified, and used privately.
+This matters. My phone handles private communication, authentication, access to personal data, and day-to-day interaction with services. Messaging apps like Signal only make sense if the system they run on can be trusted. That trust must extend to the entire stack: boot process, firmware, operating system, and application environment. Android used to offer flexibility. It was possible to select hardware, unlock the bootloader, and run a hardened system without proprietary services. This has become more difficult. Each hardware generation adds constraints. Verified Boot becomes harder to bypass. Closed firmware components grow more essential. Bootloader unlocking is no longer guaranteed. I review replacement candidates below.*
 
-This matters. My phone handles private communication, authentication, access to personal data, and day-to-day interaction with services. Messaging apps like Signal only make sense if the system they run on can be trusted. That trust must extend to the entire stack: boot process, firmware, operating system, and application environment.
-
-Android used to offer flexibility. It was possible to select hardware, unlock the bootloader, and run a hardened system without proprietary services. This has become more difficult. Each hardware generation adds constraints. Verified Boot becomes harder to bypass. Closed firmware components grow more essential. Bootloader unlocking is no longer guaranteed.
+---
 
 ## Pixel devices
 
