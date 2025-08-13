@@ -36,7 +36,7 @@ ninja.data = [{
         },
       },{id: "post-choosing-a-phone-for-privacy-in-2025",
         
-          title: "Choosing a phone for privacy in 2025",
+          title: "Choosing a Phone for Privacy in 2025",
         
         description: "Evaluating modern mobile hardware for privacy, support, and long-term usability.",
         section: "Posts",
