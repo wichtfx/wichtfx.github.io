@@ -27,7 +27,7 @@ ninja.data = [{
         
           title: "Toxic Decoys: A Path to Scaling Privacy-Preserving Cryptocurrencies",
         
-        description: "",
+        description: "A new approach to scaling privacy-preserving cryptocurrencies described here for a broader audience",
         section: "Posts",
         handler: () => {
           
