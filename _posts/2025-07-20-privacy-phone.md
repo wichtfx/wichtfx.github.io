@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Choosing a phone for privacy in 2025
+title: Choosing a Phone for Privacy in 2025
 date: 2025-08-03 18:00:00
 description: Evaluating modern mobile hardware for privacy, support, and long-term usability.
 tags: privacy phones android ios calyxos grapheneos pixel
