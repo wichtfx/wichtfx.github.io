@@ -23,9 +23,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "post-choosing-a-phone-for-privacy-in-2025",
+        },{id: "post-toxic-decoys-a-path-to-scaling-privacy-preserving-cryptocurrencies",
         
-          title: "Choosing a phone for privacy in 2025",
+          title: "Toxic Decoys: A Path to Scaling Privacy-Preserving Cryptocurrencies",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/toxic_decoys/";
+          
+        },
+      },{id: "post-choosing-a-phone-for-privacy-in-2025",
+        
+          title: "Choosing a Phone for Privacy in 2025",
         
         description: "Evaluating modern mobile hardware for privacy, support, and long-term usability.",
         section: "Posts",
