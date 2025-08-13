@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Toxic Decoys: A Path to Scaling Privacy-Preserving Cryptocurrencies"
-ghcommentid: 17
+description: "A new approach to scaling privacy-preserving cryptocurrencies described here for a broader audience"
 author: François-Xavier Wicht and Christian Cachin
 tags: privacy cryptocurrency scalability
 category: research
