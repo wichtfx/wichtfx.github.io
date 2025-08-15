@@ -10,8 +10,8 @@
   --global-code-bg-color: #F8F8F2;
   --global-text-color: #1F1F28; /* sumiInk1 */
   --global-text-color-light: #727169; /* fujiGray */
-  --global-theme-color: #957FB8; /* oniViolet */
-  --global-hover-color: #7E9CD8; /* crystalBlue */
+  --global-theme-color: #E94E55; /* Darkened samuraiRed for links */
+  --global-hover-color: #FF5D62; /* original samuraiRed on hover */
   --global-hover-text-color: #DCD7BA; /* fujiWhite */
   --global-footer-bg-color: #2A2A37; /* sumiInk2 */
   --global-footer-text-color: #C8C093; /* oldWhite */
@@ -24,7 +24,6 @@
   --global-back-to-top-text-color: #DCD7BA;
   --global-newsletter-bg-color: #F8F8F2;
   --global-newsletter-text-color: #1F1F28;
-
   --global-tip-block: #98BB6C; /* springGreen */
   --global-tip-block-bg: #E2F5EC;
   --global-tip-block-text: #2B3328; /* winterGreen */
@@ -37,7 +36,6 @@
   --global-danger-block-bg: #FFE0E0;
   --global-danger-block-text: #43242B; /* winterRed */
   --global-danger-block-title: #C34043; /* autumnRed */
-
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
