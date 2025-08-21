@@ -2,18 +2,19 @@
 ---
 @Article{cw25,
   author       = {Christian Cachin and
-                  François-Xavier Wicht},
-  title        = {Toxic Decoys: A Path to Scaling Privacy-Preserving Cryptocurrencies},
-  journal      = {Proceedings of the Privacy Enhancing Technologies},
+                  Fran{\c{c}}ois{-}Xavier Wicht},
+  title        = {Toxic Decoys: {A} Path to Scaling Privacy-Preserving Cryptocurrencies},
+  journal      = {Proc. Priv. Enhancing Technol.},
   volume       = {2025},
-  year         = {2025},
   number       = {4},
+  pages        = {926--943},
+  year         = {2025},
+  url          = {https://doi.org/10.56553/popets-2025-0165},
+  doi          = {10.56553/POPETS-2025-0165},
+  abstract = {Anonymous cryptocurrencies attracted much attention over the past decade, yet ensuring both integrity and privacy in an open system remains challenging. Their transactions preserve privacy because they do not reveal on which earlier transaction they depend, specifically which outputs of previous transactions are spent. However, achieving privacy imposes a significant storage overhead due to two current limitations. First, the set of potentially unspent outputs of transactions grows indefinitely because the design hides cryptographically which one have been consumed; and, second, additional data must be stored for each spent output to ensure integrity, that is, to prevent that it can be spent again. We introduce a privacy-preserving payment scheme that mitigates these issues by randomly partitioning unspent outputs into fixed-size bins. Once a bin has been referenced in as many transactions as its size, it is pruned from the ledger. This approach reduces storage overhead while preserving privacy. We first highlight the scalability benefits of using smaller untraceability sets instead of considering the entire set of outputs, as done in several privacy-preserving cryptocurrencies. We then formalize the security and privacy notions required for a scalable, privacy-preserving payment system and analyze how randomized partitioning plays a key role in both untraceability and scalability. To instantiate our approach, we provide a construction based on Merkle trees, which ensures efficient argument systems and easy pruning of the state. We finally show the storage benefits of our scheme and analyze its resilience against large-scale flooding attacks using empirical transaction data.},
   selected = {true},
   preview = {cw25.png},
-  abstract = {Anonymous cryptocurrencies attracted much attention over the past decade, yet ensuring both integrity and privacy in an open system remains challenging. Their transactions preserve privacy because they do not reveal on which earlier transaction they depend, specifically which outputs of previous transactions are spent. However, achieving privacy imposes a significant storage overhead due to two current limitations. First, the set of potentially unspent outputs of transactions grows indefinitely because the design hides cryptographically which one have been consumed; and, second, additional data must be stored for each spent output to ensure integrity, that is, to prevent that it can be spent again. We introduce a privacy-preserving payment scheme that mitigates these issues by randomly partitioning unspent outputs into fixed-size bins. Once a bin has been referenced in as many transactions as its size, it is pruned from the ledger. This approach reduces storage overhead while preserving privacy. We first highlight the scalability benefits of using smaller untraceability sets instead of considering the entire set of outputs, as done in several privacy-preserving cryptocurrencies. We then formalize the security and privacy notions required for a scalable, privacy-preserving payment system and analyze how randomized partitioning plays a key role in both untraceability and scalability. To instantiate our approach, we provide a construction based on Merkle trees, which ensures efficient argument systems and easy pruning of the state. We finally show the storage benefits of our scheme and analyze its resilience against large-scale flooding attacks using empirical transaction data.},
-  doi = {10.56553/popets-2025-0165},
   bibtex_show = {true},
-  url          = {https://doi.org/10.56553/popets-2025-0165}
 }
 @InProceedings{wzlc25,
   author	= {François-Xavier Wicht and Zhipeng Wang and Duc V. Le and
