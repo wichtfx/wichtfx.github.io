@@ -23,4 +23,4 @@ I am a PhD student in the [Cryptology and Data Security Group](https://crypto.un
 
 More broadly, my interests include privacy-enhancing technologies and censorship-resistant systems, using cryptography and Byzantine fault-tolerant protocols.
 
-Feel free to reach out via [email](mailto:francois-xavier.wicht@unibe.ch) or check out my latest updates and research below.
+Feel free to reach out via [email](mailto:francois-xavier.wicht@unibe.ch) or check out my latest updates and research below. If you feel that your communication is sensitive here is my [pubkey](/assets/francois-xavier.wicht@unibe.ch.asc).
