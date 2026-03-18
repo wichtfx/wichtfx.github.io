@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "post-toxic-decoys-a-path-to-scaling-privacy-preserving-cryptocurrencies",
+        },{id: "post-nothing-to-hide-until-you-do",
+        
+          title: "Nothing to Hide, Until You Do",
+        
+        description: "The &#39;nothing to hide&#39; argument assumes the rules won&#39;t change and you won&#39;t be caught in someone else&#39;s net. History is not kind to either assumption.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nothing-to-hide/";
+          
+        },
+      },{id: "post-toxic-decoys-a-path-to-scaling-privacy-preserving-cryptocurrencies",
         
           title: "Toxic Decoys: A Path to Scaling Privacy-Preserving Cryptocurrencies",
         
