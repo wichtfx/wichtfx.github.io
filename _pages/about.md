@@ -4,7 +4,6 @@ title: About
 permalink: /
 subtitle: /fʁɑ̃.swa ɡ.za.vje/ or simply <a href="https://french.stackexchange.com/a/8383">FX /ˌɛfˈɛks/</a>
 
-
 selected_papers: true
 social: true
 

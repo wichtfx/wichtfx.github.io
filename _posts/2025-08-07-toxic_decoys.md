@@ -31,7 +31,6 @@ In ring-based systems like Monero, some decoys eventually become <em>toxic</em>�
 
 Consider two independent transactions illustrated below. The first transaction spends a coin called $$o_1$$, while the second transaction spends a coin called $$o_2$$. If $$o_1$$ is used as a decoy in the second transaction, and $$o_2$$ is used as a decoy in the first transaction, an observer analyzing the blockchain can make a joint deduction: both coins must have been spent somewhere, since each appears as a decoy in a transaction where the other is the real spend. However, the observer still cannot determine which specific coin was spent in which transaction—they only learn that both coins are no longer unspent. The situation becomes problematic when either of these coins is later used as a decoy in a third transaction. At that point, since their spent status is already known, they provide no privacy protection and could be removed from the anonymity set. This is why we call these outputs "toxic"—they become harmful to privacy since their spent status becomes deducible.
 
-
 <div style="text-align: center;">
 <img src="/assets/img/toxic_decoys/toxicity_example.png" alt="Two transactions illustrating toxic decoys" style="width: 50%; height: auto;" class="figure-container">
 <br>
@@ -52,7 +51,6 @@ Before describing our approach, it helps to understand the types of attacks docu
 | **Active**   | Pattern generation                                                                            | The attacker creates outputs in ways that force predictable patterns, facilitating later deanonymization (e.g., [dusting attacks](https://coinmarketcap.com/academy/glossary/dusting-attack)). |
 
 These attacks highlight two key requirements for any privacy system: it needs _structural constraints_ on how decoys are chosen to prevent statistical analysis, and it needs _randomness_ to limit adversarial influence over the decoy selection process.
-
 
 ## Our approach
 
@@ -163,5 +161,3 @@ For more information, check out the [full research paper](https://petsymposium.o
 ---
 
 _This work is part of our interdisciplinary research project on [Central Bank Digital Currency (CBDC)](//techlaw.group/project/cbdc/) and has also been supported by the [Initiative for Cryptocurrencies and Contracts (IC3)](//www.initc3.org)._
-
-

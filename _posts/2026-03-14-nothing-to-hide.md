@@ -46,7 +46,7 @@ The most precise reading of "I have nothing to hide" is: "I trust that the rules
 
 ---
 
-*A common objection to strong cryptography and privacy-preserving technology is that it primarily benefits criminals: encrypted messaging lets terrorists coordinate, anonymous currencies enable fraud and tax evasion. The clearest counterexample is not a criminal. It is the person who complied fully with the law and had data they submitted in good faith repurposed against them under rules that changed after the fact. Criminals operate outside the law and find other means. The people who lose when privacy infrastructure is weakened are the ones who trusted it.*
+_A common objection to strong cryptography and privacy-preserving technology is that it primarily benefits criminals: encrypted messaging lets terrorists coordinate, anonymous currencies enable fraud and tax evasion. The clearest counterexample is not a criminal. It is the person who complied fully with the law and had data they submitted in good faith repurposed against them under rules that changed after the fact. Criminals operate outside the law and find other means. The people who lose when privacy infrastructure is weakened are the ones who trusted it._
 
 ---
 
