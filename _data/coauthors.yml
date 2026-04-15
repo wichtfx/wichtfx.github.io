@@ -1,3 +1,27 @@
 "cachin":
   - firstname: ["Christian", "C."]
     url: https://crypto.unibe.ch/cc/
+
+"wang":
+  - firstname: ["Zhipeng", "Z."]
+    url: https://zhipengwang.io/
+
+"le":
+  - firstname: ["Duc V.", "D.", "D. V."]
+    url: https://levduc.github.io/
+
+"yuhala":
+  - firstname: ["Peterson", "P."]
+    url: https://yuhala.github.io/
+
+"felber":
+  - firstname: ["Pascal", "P."]
+    url: http://members.unine.ch/pascal.felber/index.html
+
+"schiavoni":
+  - firstname: ["Valerio", "V."]
+    url: http://members.unine.ch/valerio.schiavoni/
+
+"yaish":
+  - firstname: ["Aviv", "A."]
+    url: https://aviv.yai.sh/
