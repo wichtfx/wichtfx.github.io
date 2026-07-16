@@ -7,7 +7,7 @@
     url: https://zhipengwang.io/
 
 "le":
-  - firstname: ["Duc V.", "D.", "D. V."]
+  - firstname: ["Duc V.", "D.", "D. V.", "Duc Viet"]
     url: https://levduc.github.io/
 
 "yuhala":
@@ -25,3 +25,11 @@
 "yaish":
   - firstname: ["Aviv", "A."]
     url: https://aviv.yai.sh/
+
+"lehnherr":
+  - firstname: ["David", "D."]
+    url: https://crypto.unibe.ch/dl/
+
+"villacis":
+  - firstname: ["Juan", "J."]
+    url: https://crypto.unibe.ch/jv/
