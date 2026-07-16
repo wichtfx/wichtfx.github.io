@@ -4,6 +4,16 @@ title: About
 permalink: /
 subtitle: /fʁɑ̃.swa ɡ.za.vje/ or simply <a href="https://french.stackexchange.com/a/8383">FX /ˌɛfˈɛks/</a>
 
+profile:
+  image: prof_pic-dark.png
+  image_dark: prof_pic-light.png
+  align: left
+  image_circular: false
+  more_info: >
+    <p><small>Institute of Computer Science</small></p>
+    <p><small>University of Bern</small></p>
+    <p><small><a href="mailto:francois-xavier.wicht@unibe.ch">francois-xavier.wicht@unibe.ch</a></small></p>
+
 selected_papers: true
 social: true
 
