@@ -142,7 +142,7 @@ ninja.data = [{
         title: 'DBLP',
         section: 'Socials',
         handler: () => {
-          window.open("https://dblp2.uni-trier.de/pid/365/0447.html", "_blank");
+          window.open("https://dblp.uni-trier.de/pid/365/0447.html", "_blank");
         },
       },{
         id: 'social-email',
