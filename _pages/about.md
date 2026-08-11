@@ -15,7 +15,7 @@ profile:
     <p><small><a href="mailto:francois-xavier.wicht@unibe.ch">francois-xavier.wicht@unibe.ch</a></small></p>
 
 selected_papers: true
-social: true
+social: false
 
 announcements:
   enabled: true
